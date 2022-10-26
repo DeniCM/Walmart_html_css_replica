@@ -1,0 +1,246 @@
+:root{
+    --blue:  #0671DC;
+    --white: #FFFFFF;
+    --yellow: #FEC21F;
+    --gray:#757575;
+    }
+    body{
+        font-family: 'Asap', sans-serif; 
+    } 
+body{
+    margin: 0%;
+}
+    
+nav {
+    background-color: var(--blue);
+    height: 50px;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    padding: 20px 16px ;
+    
+   }
+
+nav a {
+    text-decoration: none;
+    font-size: large;
+    color: #FFFFFF;
+
+}
+
+div:hover:not(form div){
+    color:#FFFFFF;
+    background-color: #0968a3;
+    border-radius: 100px;
+
+}
+
+.manu_mobile {
+    display: none;
+    color: #FFFFFF;
+    background-color: #0671DC;
+    border: 0px;
+
+}
+
+/* logo-walmart */
+
+.walmart_logo {
+    font-weight: 900;
+    padding: 13px 16px 14px;
+
+}
+
+.walmart_logo i{
+    color: #FEC21F;
+
+}
+
+/* departaments */
+.departmens{
+    padding: 13px 16px 14px;
+
+}
+
+/* sercices */
+.services{
+    padding: 13px 16px 14px;
+
+
+}
+
+/* searchbar */
+
+form{
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    /* width: 630px; */
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+
+
+form button { color:#FFFFFF;
+    background-color: var(--yellow);
+    width: 30px;
+    height: 30px;
+    border:0px;
+    border-radius:50px;
+    margin-right: 3px;
+    
+}
+.search_bar{
+width: 525px;
+padding-left: 16px;
+
+
+}
+.search_flexs{
+    display: flex;
+    width: 525px;
+    border-radius: 100px;
+}
+.search_bar input{
+    width: 525px;
+    height: 40px;
+    border: 0px;
+    padding: 0%;
+    /* border-radius: 100px; */
+}
+
+/* items */
+
+.items{
+    padding: 3px 16px;
+}
+
+.items a{
+    display: flex;
+     align-items: center;   
+   }
+.items i {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.items span { 
+    font-size: 12px;
+
+}
+
+
+/* acccounts */
+
+.account{
+    padding: 3px 16px;
+}
+.account a{
+    display: flex;
+    align-items: center;
+}
+.account i{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.account span{
+    font-size: 12px;
+}
+
+
+/* cart */
+
+.cart{ 
+    padding: 13.5px 16px;
+}
+/* ------ end of nav ---------- */
+
+/* start of the second section of the navagation bar */
+
+.main_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0671DC;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 1px;
+}
+.main_section a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.location{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+
+
+.medicine{
+padding-left: 20px;
+
+}
+
+
+.apparel{
+    padding-left: 20px;
+}
+
+
+.home{
+    padding-left: 20px;
+    
+}
+
+
+.toy{
+   padding-left: 20px;
+}
+
+
+.national{
+    padding-left: 20px;
+}
+
+
+.picks{
+    
+    padding-left: 20px;
+}
+
+
+.walmart_plus{
+    padding-left: 20px;
+}
+
+a:hover:not(.location a) {
+    text-decoration: underline;
+}
+
+
+@media( max-width:  640px){
+    .manu_mobile    { display:block;} 
+
+    .search_bar {
+        width: 240px;
+    }
+
+    .walmart_logo{
+        display: none;
+
+    }
+
+    .departmens{display: none;}
+    .services{display: none;}
+    .items{display: none;}
+    .account{display: none;}
+    .main_section{display: none;}
+
+}
