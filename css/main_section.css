@@ -1,0 +1,72 @@
+:root{
+    --blue:  #0671DC;
+    --white: #FFFFFF;
+    --yellow: #FEC21F;
+    --gray:#757575;
+    }
+
+
+body{
+
+}
+
+.firts_box {
+    
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 794px;
+    height: 404px;
+    background-color:var(--blue);
+   background-image: url("../img/k2-_98313332-39d1-4064-a0a4-aa2a75205251.v1\ copy.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 53%;
+   border-radius: 0.7em;
+  
+}
+
+
+.title {
+    color:var(--white);
+   
+}
+
+.title a   {
+    font-size: 25px;
+    text-decoration: none;
+}
+.title   h1 {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+
+}
+
+.description a{
+text-decoration: none;
+
+}
+
+.description  span {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button a {
+    font-weight: 530;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    background-color: #FFFFFF;
+    border: 1px solid ;
+    border-color: black;
+    border-radius: 2rem;
+}
+

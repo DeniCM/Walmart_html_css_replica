@@ -32,7 +32,12 @@ div:hover:not(form div){
     color:#FFFFFF;
     background-color: #0968a3;
     border-radius: 100px;
+    
 
+}
+
+a:hover:not(form div){
+    text-decoration: none;
 }
 
 .manu_mobile {
@@ -121,6 +126,7 @@ padding-left: 16px;
 .items a{
     display: flex;
      align-items: center;   
+     text-decoration: none;
    }
 .items i {
     padding-right: 6px;
