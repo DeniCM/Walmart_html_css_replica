@@ -9,7 +9,7 @@
 body{
 
 }
-
+/* the code of the first box */
 .firts_box {
     
     padding-top: 20px;
@@ -69,4 +69,63 @@ text-decoration: none;
     border-color: black;
     border-radius: 2rem;
 }
+/* end of code of the first box */
 
+/* ---start of the secunde box --- */
+
+.second_box{
+    width:400px ;
+    height:424px;
+    border-radius: 0.7em;
+    /* border: 0.3px solid black; */
+    box-shadow: 0 1px 2px 1px #00000026;
+}
+
+.header a {
+display: flex;
+color: black;
+text-decoration: none;
+justify-content: space-between;
+align-items: center;
+padding-left: 14px;
+}
+.header button{
+    border: none;
+    text-decoration: underline;
+    background-color: #FFFFFF;
+    padding-right: 14px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+padding-left: 14px;
+
+
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer button {
+    background-color: #0671DC;
+    font-size: 17px;
+    border-radius: 1em;
+    color: #FFFFFF;
+    padding: 6px 10px;
+    border: none;
+}
+
+.footer h2 , p {
+    color:black;
+
+}
+
+.footer h2 span {
+    color: #757575;
+    font-size: 20px;
+    text-decoration: line-through;
+}
