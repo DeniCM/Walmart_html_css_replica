@@ -7,14 +7,28 @@
 
 
 body{
+   /* display: flex;
+   justify-content: space-between; */
 
 }
+
+.main_section{
+    display: grid;
+    grid-template-columns: repeat(3, 410px);
+    gap: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
 /* the code of the first box */
 .firts_box {
+    grid-column-start: 1;
+    grid-column-end: 3;
     
     padding-top: 20px;
     padding-left: 20px;
-    width: 794px;
+    /* width: 820.32px; */
     height: 404px;
     background-color:var(--blue);
    background-image: url("../img/k2-_98313332-39d1-4064-a0a4-aa2a75205251.v1\ copy.png");
@@ -74,7 +88,7 @@ text-decoration: none;
 /* ---start of the secunde box --- */
 
 .second_box{
-    width:400px ;
+    /* width:400px ; */
     height:424px;
     border-radius: 0.7em;
     /* border: 0.3px solid black; */
@@ -128,4 +142,90 @@ padding-left: 14px;
     color: #757575;
     font-size: 20px;
     text-decoration: line-through;
+}
+
+/* the beginning of the the third box */
+
+.third_box {
+    height: 424px ;
+    /* width: 418.66px; */
+    /* border-radius: 0.7em;
+    box-shadow: 0 1px 2px 1px #00000026; */
+}
+
+.reserve_pickup {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E6F2FC;
+    align-items: baseline;
+    width: inherit;
+    height: 128px;
+     border-radius: 0.7em;
+     box-shadow: 0 1px 2px 1px #00000026; 
+     margin-bottom: 24px;
+
+}
+
+.reserve_pickup button {
+    background-color: #FFFFFF;
+    height: 31px;
+    border-radius: 1rem;
+    padding: 2px 13px;
+}
+
+.popular_services{
+    height: 272px;
+    border-radius: 0.7em;
+    box-shadow: 0 1px 2px 1px #00000026; 
+}
+
+.popular_services_header { 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 27px;
+    padding-right: 27px;
+
+}
+
+.popular_services_header  button {
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: underline;
+}
+
+.service_main_contents{
+    display: flex;
+
+}
+
+.service_main_contents ul li {
+    text-decoration: none;
+
+}
+
+
+
+
+/* end */
+
+
+/* the beginning of the fourth box*/
+
+.fourth_box{
+    height: 424px ;
+    /* width: 418.66px; */
+    border-radius: 0.7em;
+    box-shadow: 0 1px 2px 1px #00000026;
+}
+
+/* end */
+
+
+/* the beginning of the fifth box */
+
+.fifth_box {
+    height: 424px ;
+    /* width: 418.66px; */
+    border-radius: 0.7em;
+    box-shadow: 0 1px 2px 1px #00000026;
 }
