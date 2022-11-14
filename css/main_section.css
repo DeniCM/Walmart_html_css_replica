@@ -20,6 +20,9 @@
 }
 
 
+
+
+
 /* the code of the first box */
 .firts_box {
     grid-column-start: 1;
@@ -84,6 +87,11 @@ text-decoration: none;
 }
 /* end of code of the first box */
 
+
+
+
+
+
 /* ---start of the secunde box --- */
 
 .second_box{
@@ -143,6 +151,9 @@ padding-left: 14px;
     text-decoration: line-through;
 }
 
+
+
+
 /* the beginning of the the third box */
 
 .third_box {
@@ -192,10 +203,6 @@ padding-left: 14px;
     text-decoration: underline;
 }
 
-/* .service_main_contents{
-    /* display: flex; */
-
-
 
 .service_main_contents ul {
     display: flex;
@@ -204,7 +211,6 @@ padding-left: 14px;
     width: 363px;
    
 }
-
 
 
 .service_main_contents ul li {
@@ -230,6 +236,11 @@ padding-left: 14px;
 
 
 /* end */
+
+
+
+
+
 
 
 /* the beginning of the fourth box*/
@@ -287,6 +298,9 @@ padding-left: 14px;
 /* end */
 
 
+
+
+
 /* the beginning of the fifth box */
 
 .fifth_box {
@@ -294,4 +308,107 @@ padding-left: 14px;
     /* width: 418.66px; */
     border-radius: 0.7em;
     box-shadow: 0 1px 2px 1px #00000026;
+}
+
+.grid_container_fifth_box{
+    display: grid;
+    grid-template-columns: 180px 180px;
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+
+.grid_container_fifth_box a {
+    text-decoration: none;
+}
+
+.grid_container_fifth_box p {
+    margin: 0px;
+}
+        /* //////// */
+
+
+.fifth_box_header h3{
+    padding-left: 20px;
+    margin-bottom: 4px;
+}
+
+        /* ////////// */
+
+.fifth_box_self_care {
+    display: flex;
+    justify-content: center;
+
+}
+.fifth_box_self_care img {
+    padding-left: 11px;
+}
+/* /////////// */
+
+.fifth_box_active_gear {
+    display: flex;
+    justify-content:center;
+}
+.fifth_box_active_gear img {
+    padding-left: 19px;
+}
+
+/* ///////// */
+.fifth_box_home {
+    display: flex;
+    justify-content: center;
+}
+
+/* //////// */
+
+.fifth_box_flash_picks {
+    display: flex;
+    justify-content: center;
+}
+
+.fifth_box_flash_picks p {
+padding-left: 29px;
+}
+
+/* :end\ */
+
+
+
+/* footer of the first section  */
+
+.footer_box {
+    grid-column: 1/4;
+    height: 49px;
+    background-color: #0671DC;
+    background-image: url(https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-bg-dweb.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7em;
+    
+}
+
+.footer_box_a {
+    text-decoration: none;
+}
+
+.footer_box_img_p {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.footer_box_img_p p {
+    color: #FFFFFF;
+    
+}
+
+.footer_box_img_p p span {
+    margin-left: 20px;
+    text-decoration: underline;
+    font-size: medium;
+}
+.footer_box_img_p img{
+        width: 30px;
+        aspect-ratio: 1/1;
+        padding-right: 20px;
 }
